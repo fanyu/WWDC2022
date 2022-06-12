@@ -20,6 +20,7 @@
 		7C73686D285439C3004FD6DC /* FYImageVlaue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C73686C285439C3004FD6DC /* FYImageVlaue.swift */; };
 		7C73686F28543B4F004FD6DC /* FYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C73686E28543B4F004FD6DC /* FYTextField.swift */; };
 		7C73687128543D56004FD6DC /* FYToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C73687028543D56004FD6DC /* FYToggle.swift */; };
+		7C7368732854CE36004FD6DC /* FYChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7368722854CE36004FD6DC /* FYChars.swift */; };
 		7C87D7B42850E1D400386B1E /* WhatsNewSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D7B32850E1D400386B1E /* WhatsNewSwiftUIApp.swift */; };
 		7C87D7B62850E1D400386B1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D7B52850E1D400386B1E /* ContentView.swift */; };
 		7C87D7B82850E1D400386B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C87D7B72850E1D400386B1E /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		7C73686C285439C3004FD6DC /* FYImageVlaue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYImageVlaue.swift; sourceTree = "<group>"; };
 		7C73686E28543B4F004FD6DC /* FYTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYTextField.swift; sourceTree = "<group>"; };
 		7C73687028543D56004FD6DC /* FYToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYToggle.swift; sourceTree = "<group>"; };
+		7C7368722854CE36004FD6DC /* FYChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYChars.swift; sourceTree = "<group>"; };
 		7C87D7B02850E1D400386B1E /* WhatsNewSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsNewSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C87D7B32850E1D400386B1E /* WhatsNewSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewSwiftUIApp.swift; sourceTree = "<group>"; };
 		7C87D7B52850E1D400386B1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				7C73686C285439C3004FD6DC /* FYImageVlaue.swift */,
 				7C73686E28543B4F004FD6DC /* FYTextField.swift */,
 				7C73687028543D56004FD6DC /* FYToggle.swift */,
+				7C7368722854CE36004FD6DC /* FYChars.swift */,
 				7C87D7B72850E1D400386B1E /* Assets.xcassets */,
 				7C87D7B92850E1D400386B1E /* WhatsNewSwiftUI.entitlements */,
 				7C87D7BA2850E1D400386B1E /* Preview Content */,
@@ -196,6 +199,7 @@
 				7C30DD8328523E9B000B0822 /* FYGridView.swift in Sources */,
 				7C87D7C32850E1E800386B1E /* Navigation.swift in Sources */,
 				7C73686D285439C3004FD6DC /* FYImageVlaue.swift in Sources */,
+				7C7368732854CE36004FD6DC /* FYChars.swift in Sources */,
 				7C87D7B42850E1D400386B1E /* WhatsNewSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
