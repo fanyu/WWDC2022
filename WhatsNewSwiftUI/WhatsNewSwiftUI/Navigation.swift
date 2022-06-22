@@ -14,6 +14,8 @@ struct Navigation: View {
     
     var body: some View {
         NavigationStack(path: $path) {
+            Button("Back To Root", action: popToRoot)
+            
             NavigationLink(value: "HelloWorld") {
                 Text("Tap Me")
             }
@@ -31,6 +33,10 @@ struct Navigation: View {
             }
             .navigationTitle("Navigation")
         }
+    }
+    
+    func popToRoot() {
+        path.removeAll()
     }
 }
 

@@ -39,6 +39,20 @@ struct SplitView: View {
     
 }
 
+struct SliptView2: View {
+    
+    var body: some View {
+        NavigationSplitView {
+            
+        } detail: {
+            NavigationStack {
+                
+            }
+        }
+    }
+    
+}
+
 struct SplitView_Previews: PreviewProvider {
     static var previews: some View {
         SplitView()

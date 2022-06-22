@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C08A77E285599A20053F2C9 /* FYWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08A77D285599A20053F2C9 /* FYWeather.swift */; };
 		7C30DD7D2850E4AE000B0822 /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30DD7C2850E4AE000B0822 /* SplitView.swift */; };
 		7C30DD7F2850E7E9000B0822 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30DD7E2850E7E9000B0822 /* BottomSheetView.swift */; };
 		7C30DD8128523DF3000B0822 /* FYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30DD8028523DF3000B0822 /* FYAlertView.swift */; };
@@ -26,9 +27,12 @@
 		7C87D7B82850E1D400386B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C87D7B72850E1D400386B1E /* Assets.xcassets */; };
 		7C87D7BC2850E1D400386B1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C87D7BB2850E1D400386B1E /* Preview Assets.xcassets */; };
 		7C87D7C32850E1E800386B1E /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D7C22850E1E800386B1E /* Navigation.swift */; };
+		7C8F42202855DECE00F3C503 /* FYActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F421F2855DECE00F3C503 /* FYActor.swift */; };
+		7C8F960F28634F7200A6C476 /* EqualWidthHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F960E28634F7200A6C476 /* EqualWidthHStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C08A77D285599A20053F2C9 /* FYWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYWeather.swift; sourceTree = "<group>"; };
 		7C30DD7C2850E4AE000B0822 /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
 		7C30DD7E2850E7E9000B0822 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		7C30DD8028523DF3000B0822 /* FYAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYAlertView.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 		7C87D7B92850E1D400386B1E /* WhatsNewSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhatsNewSwiftUI.entitlements; sourceTree = "<group>"; };
 		7C87D7BB2850E1D400386B1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C87D7C22850E1E800386B1E /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		7C8F421F2855DECE00F3C503 /* FYActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYActor.swift; sourceTree = "<group>"; };
+		7C8F960E28634F7200A6C476 /* EqualWidthHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualWidthHStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 				7C30DD7C2850E4AE000B0822 /* SplitView.swift */,
 				7C30DD8028523DF3000B0822 /* FYAlertView.swift */,
 				7C30DD8228523E9B000B0822 /* FYGridView.swift */,
+				7C8F960E28634F7200A6C476 /* EqualWidthHStack.swift */,
 				7C30DD7E2850E7E9000B0822 /* BottomSheetView.swift */,
 				7C30DD842852400D000B0822 /* FYTapLocation.swift */,
 				7C30DD86285240FA000B0822 /* FYShareLink.swift */,
@@ -99,6 +106,8 @@
 				7C73686E28543B4F004FD6DC /* FYTextField.swift */,
 				7C73687028543D56004FD6DC /* FYToggle.swift */,
 				7C7368722854CE36004FD6DC /* FYChars.swift */,
+				7C08A77D285599A20053F2C9 /* FYWeather.swift */,
+				7C8F421F2855DECE00F3C503 /* FYActor.swift */,
 				7C87D7B72850E1D400386B1E /* Assets.xcassets */,
 				7C87D7B92850E1D400386B1E /* WhatsNewSwiftUI.entitlements */,
 				7C87D7BA2850E1D400386B1E /* Preview Content */,
@@ -189,10 +198,13 @@
 				7C30DD8128523DF3000B0822 /* FYAlertView.swift in Sources */,
 				7C30DD852852400D000B0822 /* FYTapLocation.swift in Sources */,
 				7C30DD892852423B000B0822 /* FYMultiDatePicker.swift in Sources */,
+				7C08A77E285599A20053F2C9 /* FYWeather.swift in Sources */,
+				7C8F42202855DECE00F3C503 /* FYActor.swift in Sources */,
 				7C30DD7D2850E4AE000B0822 /* SplitView.swift in Sources */,
 				7C73686928543309004FD6DC /* FYColor.swift in Sources */,
 				7C73686728542C37004FD6DC /* FYSearhView.swift in Sources */,
 				7C73686F28543B4F004FD6DC /* FYTextField.swift in Sources */,
+				7C8F960F28634F7200A6C476 /* EqualWidthHStack.swift in Sources */,
 				7C73686B28543580004FD6DC /* FYRequestReview.swift in Sources */,
 				7C73687128543D56004FD6DC /* FYToggle.swift in Sources */,
 				7C30DD87285240FA000B0822 /* FYShareLink.swift in Sources */,
@@ -325,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsNewSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = TUPKQLCCR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
@@ -355,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsNewSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = TUPKQLCCR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;

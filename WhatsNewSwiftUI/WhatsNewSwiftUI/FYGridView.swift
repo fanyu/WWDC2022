@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FYGridView: View {
     var body: some View {
-        Grid {
+        Grid(alignment: .leading) {
             GridRow {
                 Text("Red")
             }
@@ -20,6 +20,7 @@ struct FYGridView: View {
                 Text("Bottom")
                     .background(.blue)
                     .gridCellColumns(2)
+                    .gridColumnAlignment(.trailing)
             }
         }
     }
