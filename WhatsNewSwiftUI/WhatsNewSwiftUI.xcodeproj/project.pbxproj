@@ -15,6 +15,7 @@
 		7C30DD852852400D000B0822 /* FYTapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30DD842852400D000B0822 /* FYTapLocation.swift */; };
 		7C30DD87285240FA000B0822 /* FYShareLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30DD86285240FA000B0822 /* FYShareLink.swift */; };
 		7C30DD892852423B000B0822 /* FYMultiDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30DD882852423B000B0822 /* FYMultiDatePicker.swift */; };
+		7C3166692872BF9E004C0BDF /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3166682872BF9E004C0BDF /* ShadowView.swift */; };
 		7C73686728542C37004FD6DC /* FYSearhView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C73686628542C37004FD6DC /* FYSearhView.swift */; };
 		7C73686928543309004FD6DC /* FYColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C73686828543309004FD6DC /* FYColor.swift */; };
 		7C73686B28543580004FD6DC /* FYRequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C73686A28543580004FD6DC /* FYRequestReview.swift */; };
@@ -41,6 +42,7 @@
 		7C30DD842852400D000B0822 /* FYTapLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYTapLocation.swift; sourceTree = "<group>"; };
 		7C30DD86285240FA000B0822 /* FYShareLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYShareLink.swift; sourceTree = "<group>"; };
 		7C30DD882852423B000B0822 /* FYMultiDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYMultiDatePicker.swift; sourceTree = "<group>"; };
+		7C3166682872BF9E004C0BDF /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		7C73686628542C37004FD6DC /* FYSearhView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYSearhView.swift; sourceTree = "<group>"; };
 		7C73686828543309004FD6DC /* FYColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYColor.swift; sourceTree = "<group>"; };
 		7C73686A28543580004FD6DC /* FYRequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYRequestReview.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				7C08A77D285599A20053F2C9 /* FYWeather.swift */,
 				7C8F421F2855DECE00F3C503 /* FYActor.swift */,
 				7CE1D26B2872B9790032D762 /* GaugeView.swift */,
+				7C3166682872BF9E004C0BDF /* ShadowView.swift */,
 				7C87D7B72850E1D400386B1E /* Assets.xcassets */,
 				7C87D7B92850E1D400386B1E /* WhatsNewSwiftUI.entitlements */,
 				7C87D7BA2850E1D400386B1E /* Preview Content */,
@@ -208,6 +211,7 @@
 				7C73686728542C37004FD6DC /* FYSearhView.swift in Sources */,
 				7C73686F28543B4F004FD6DC /* FYTextField.swift in Sources */,
 				7C8F960F28634F7200A6C476 /* EqualWidthHStack.swift in Sources */,
+				7C3166692872BF9E004C0BDF /* ShadowView.swift in Sources */,
 				7C73686B28543580004FD6DC /* FYRequestReview.swift in Sources */,
 				7CE1D26C2872B9790032D762 /* GaugeView.swift in Sources */,
 				7C73687128543D56004FD6DC /* FYToggle.swift in Sources */,
